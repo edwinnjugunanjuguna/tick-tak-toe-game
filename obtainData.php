@@ -10,7 +10,7 @@ echo "Hello, this is my first PHP file!";
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "tictactoedbs"; // Replace with your actual database name
+$dbname = "tictactoedbs"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
